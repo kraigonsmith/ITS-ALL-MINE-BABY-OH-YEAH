@@ -6,6 +6,9 @@
 		<title>
 		Bootstrap Vue2 App
 		</title>
+		
+
+
 
 		<meta charset="utf-8">
 	  <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -18,7 +21,7 @@
 		<style type="text/css">
 
 			.isRed {
-				color:red;
+				color:blue;
 			}
 
 		</style>
@@ -28,14 +31,20 @@
 	<!-- Visible page content goes below here -->
 	<body>
 			<div class="container-fluid">
+		<style type="text/css">
 
+			.isRed {
+				color:blue;
+			}
 
+		</style>
 
-		<h1>Bootstrap Version. Woop woop</h1>
+		<h1>How To Convince Your Friends You're a Mermaid</h1>
+			
 
 			<a href="../index.html">
 				<button class="btn btn-default">
-					<span class="fa fa-fw fa-chevron-left"></span> Back Home
+					<span class="fa fa-fw fa-chevron-left"></span> No, I'm More Fairy Than Mermaid
 				</button>
 			</a>
 
@@ -69,8 +78,7 @@
 					<div class="panel-body">
 
 						<img class="img-circle" :src="post.img"> <!-- this is bound to the img slot -->
-						<h4><em>by {{post.author}}</em></h4>
-
+						
 						<p>{{post.body}}</p> <!-- this is bound to the body slot -->
 
 					</div>

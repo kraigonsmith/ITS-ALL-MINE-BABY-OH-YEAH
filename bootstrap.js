@@ -37,11 +37,11 @@ const app = new Vue({
 		postlist: [
 			// constructed Post item
 			new Post(
-				'First Post! Yay!', 		// this is the TITLE place in the class
+				'Step 1: If You Get Wet, Run Away!!!!!', 		// this is the TITLE place in the class
 				'https://google.com',	// this is the LINK place in the class
 				'An Author',			// this is the AUTHOR place in the class
-				'https://unsplash.it/200',	// this is the IMAGE place in the class
-				'Lorem ipsum dolor sit amet, consectetur.' // this is the BODY place in the class
+				'http://s3-production.bobvila.com/articles/wp-content/uploads/2013/07/shower-head.jpg',	// this is the IMAGE place in the class
+				'Most mermaids, once wet, transform. You should only do this once people know about you.' // this is the BODY place in the class
 				),
 
 			new Post(
