@@ -45,27 +45,27 @@ const app = new Vue({
 				),
 
 			new Post(
-				'Second Post: Lorem',
+				'know about the ocean',
 				'https://vuejs.org',
 				'Sammie Author',
 				'img-200.jpg', // this is a local image in the same folder as the js script
-				'This has a local image. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi viverra euismod euismod. Nulla leo est, venenatis at fringilla eget, tincidunt sed justo. In efficitur dui odio, sit amet finibus sem hendrerit ut. Etiam vestibulum sem vel metus lobortis, vitae dictum metus sagittis. Nulla facilisi. '
+				'If your friends raise the topic of the ocean, show off all you know. But if they bring up mermaids, change the subject right away! '
 				),
 
 			new Post(
 				'This Post: Crazy Fredrick',
 				'https://google.com',
 				'Bob Author',
-				'https://unsplash.it/200',
+				'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqeTqNFk6uAexkp_Rx6pcGLjwpnQ3gBuVWOyiIE6cNzVeSQ6LnPQ',
 				'Crazy Fredrick bought many very exquisite opal jewels.'
 				),
 
 			new Post(
-				'Another Post: promptly judged',
+				'sing or hum all the time.',
 				'https://vuejs.org',
 				'Jane Author',
-				'https://unsplash.it/200',
-				'We promptly judged antique ivory buckles for the next prize.'
+				'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTPEQcb2ln8BH6BSQVUukAi_U9XaK9zQh3lnfPpg64A0UKWVexww',
+				'whenever anyones near be sure to hum some beachy tunes'
 				),
 
 			new Post(
